@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 export default function Personagens({ results }) {
@@ -5,8 +6,10 @@ export default function Personagens({ results }) {
     <StyledPersonagens>
       {results.map((personagem) => (
         <article key={personagem.id}>
-          <h3>{personagem.name}</h3>
-          <img src={personagem.image} alt="" />
+          <Link href={`/personagens/${personagem.id}`}>
+            <h3>{personagem.name}</h3>
+            <img src={personagem.image} alt="" />
+          </Link>
         </article>
       ))}
     </StyledPersonagens>
