@@ -1,13 +1,13 @@
-import Header from "@/components/ui/Header";
-import Menu from "@/components/ui/Menu";
+import styled from "styled-components";
 
 export default function Filtros() {
   return (
     <>
-      <main>
+      <StyledFiltros>
         <h2>uma hora sai</h2>
         <p>calmai</p>
-      </main>
+      </StyledFiltros>
     </>
   );
 }
+const StyledFiltros = styled.section``;
