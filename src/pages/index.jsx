@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import serverApi from "./api/server";
+import Personagens from "@/components/Personagens";
 
 export async function getStaticProps() {
   try {
@@ -34,18 +35,9 @@ export default function Home({ dados }) {
     <>
       <StyledHome>
         <h2>Personagens</h2>
-        <StyledPersonagens>
-          {results.map((personagem) => (
-            <article key={personagem.id}>
-              <h3>{personagem.name}</h3>
-              <img src={personagem.image} alt="" />
-            </article>
-          ))}
-        </StyledPersonagens>
+        <Personagens results={results} />
       </StyledHome>
     </>
   );
 }
 const StyledHome = styled.section``;
-
-const StyledPersonagens = styled.section``;
