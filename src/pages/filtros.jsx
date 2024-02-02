@@ -3,11 +3,28 @@ import styled from "styled-components";
 export default function Filtros() {
   return (
     <>
+      <h2>Status</h2>
       <StyledFiltros>
-        <h2>uma hora sai</h2>
-        <p>calmai</p>
+        <button>Vivo</button>
+        <button>Morto</button>
+        <button>Desconhecido</button>
       </StyledFiltros>
     </>
   );
 }
-const StyledFiltros = styled.section``;
+const StyledFiltros = styled.section`
+  display: flex;
+  justify-content: space-around;
+
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: lightblue;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #00f;
+      cursor: pointer;
+    }
+  }
+`;
