@@ -13,7 +13,7 @@ export default function Header() {
             width={48}
             height={48}
             alt="Cara do Rick"
-          />{" "}
+          />
           Rick e Morty
         </Link>
       </h1>
