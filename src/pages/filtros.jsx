@@ -1,7 +1,7 @@
 import Header from "@/components/ui/Header";
 import Menu from "@/components/ui/Menu";
 
-export default function Equipe() {
+export default function Filtros() {
   return (
     <>
       <Header />
