@@ -8,7 +8,7 @@ export default function Menu() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/equipe">Equipe</Link>
+          <Link href="/filtros">Filtros</Link>
         </li>
       </ul>
     </nav>

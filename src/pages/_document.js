@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="shortcut icon"
-          href="/images/pokemon.png"
+          href="/images/rick.png"
           type="image/png"
           sizes="256x256"
         />

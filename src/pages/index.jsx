@@ -1,10 +1,9 @@
-import Menu from "@/components/ui/Menu";
+import Header from "@/components/ui/Header";
 
 export default function Home() {
   return (
     <>
-      <h1>Opa, bão?</h1>
-      <Menu />
+      <Header />
       <main>
         <h2>blablabla</h2>
         <p>teste</p>
