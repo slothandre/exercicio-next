@@ -1,4 +1,4 @@
-import Menu from "@/components/Menu";
+import Menu from "@/components/ui/Menu";
 
 export default function Equipe() {
   return (
