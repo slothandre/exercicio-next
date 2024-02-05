@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <StyledNav>
       <Link href="/">Home</Link>
-      <Link href="/localizacoes">Localizações</Link>
+      <Link href="/locais">Localizações</Link>
     </StyledNav>
   );
 }
