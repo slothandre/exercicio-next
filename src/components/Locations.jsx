@@ -22,8 +22,17 @@ const StyledLocal = styled.section`
   gap: 10px;
   justify-content: space-around;
 
+  article {
+    background-color: #303032;
+    padding: 0.5rem 1rem;
+  }
+
   article a {
     text-decoration: none;
     color: #70592d;
+
+    &:hover {
+      color: #9fded5;
+    }
   }
 `;
