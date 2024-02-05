@@ -1,0 +1,19 @@
+{
+  "short_name": "Rico e Morto",
+  "name": "Site com personagens e planetas de rico e morto",
+  "description": "Exemplo de uma PWA criada com Next.js",
+  "icons": [
+    {
+      "src": "images/rick.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "lang": "pt-br"
+}
