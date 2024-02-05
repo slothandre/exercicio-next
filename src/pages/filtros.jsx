@@ -1,8 +1,12 @@
+import Head from "next/head";
 import styled from "styled-components";
 
 export default function Filtros() {
   return (
     <>
+      <Head>
+        <title>Rico e Morto - Filtros</title>
+      </Head>
       <h2>Status</h2>
       <StyledFiltros>
         <button>Vivo</button>

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import serverApi from "./api/server";
 import Personagens from "@/components/Personagens";
+import Head from "next/head";
 
 export async function getStaticProps() {
   try {
@@ -33,6 +34,9 @@ export default function Home({ dados }) {
   }
   return (
     <>
+      <Head>
+        <title>Rico e Morto</title>
+      </Head>
       <StyledHome>
         <h2>Personagens</h2>
         <Personagens results={results} />

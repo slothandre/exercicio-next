@@ -9,7 +9,6 @@ export default function Personagens({ results }) {
           <Link href={`/personagens/${personagem.id}`}>
             <h3>{personagem.name}</h3>
             <img src={personagem.image} alt="" />
-            <p>Status: {personagem.status}</p>
           </Link>
         </article>
       ))}

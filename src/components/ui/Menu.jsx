@@ -1,16 +1,33 @@
 import Link from "next/link";
+import styled from "styled-components";
 
 export default function Menu() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/filtros">Filtros</Link>
-        </li>
-      </ul>
-    </nav>
+    <StyledNav>
+      <Link href="/">Home</Link>
+      <Link href="/filtros">Filtros</Link>
+    </StyledNav>
   );
 }
+
+const StyledNav = styled.nav`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: #9fded5;
+    background-color: #303032;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+    &:hover {
+      color: #b2daed;
+      scale: 1.05;
+    }
+  }
+`;
