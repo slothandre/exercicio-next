@@ -47,6 +47,15 @@ export default function Personagem({ personagem }) {
         <h2>{personagem.name}</h2>
         <Container>
           <img src={personagem.image} alt="Foto do cara" />
+          <p>
+            <b>Status:</b> {personagem.status}
+          </p>
+          <p>
+            <b>Especie:</b> {personagem.species}
+          </p>
+          <p>
+            <b>Gênero:</b> {personagem.gender}
+          </p>
         </Container>
       </StyledPersonagem>
     </>
