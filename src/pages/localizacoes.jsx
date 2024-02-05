@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styled from "styled-components";
 import serverApi from "./api/server";
+import Locations from "@/components/Locations";
 
 export async function getStaticProps() {
   try {
@@ -37,7 +38,9 @@ export default function Localizacoes({ dados }) {
         <title>Rico e Morto - Localizacoes</title>
       </Head>
       <h2>Localizações</h2>
-      <StyledLocalizacoes></StyledLocalizacoes>
+      <StyledLocalizacoes>
+        <Locations results={results} />
+      </StyledLocalizacoes>
     </>
   );
 }
