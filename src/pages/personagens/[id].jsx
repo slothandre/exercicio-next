@@ -37,7 +37,7 @@ export async function getStaticPaths() {
 }
 
 export default function Personagem({ personagem }) {
-  const tituloPagina = `${personagem.name} - Rick e Morty`;
+  const tituloPagina = `${personagem.name} - Rico e Morto`;
   return (
     <>
       <Head>
