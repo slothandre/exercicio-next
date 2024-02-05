@@ -37,8 +37,8 @@ export default function Home({ dados }) {
       <Head>
         <title>Rico e Morto</title>
       </Head>
+      <h2>Personagens</h2>
       <StyledHome>
-        <h2>Personagens</h2>
         <Personagens results={results} />
       </StyledHome>
     </>
