@@ -20,4 +20,10 @@ const StyledPersonagens = styled.section`
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: space-around;
+
+  article a {
+    text-decoration: none;
+    color: #70592d;
+  }
 `;
